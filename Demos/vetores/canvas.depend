@@ -309,3 +309,48 @@
 1712511786 source:c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\gl_1_canvasglut\src\managerbotoes.cpp
 	"ManagerBotoes.h"
 
+1710341420 source:c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\vetores\src\gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+
+1710341387 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\vetores\src\gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	"Vector2.h"
+
+1713813926 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\vetores\src\vector2.h
+
+1713812075 source:c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\vetores\src\main.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"gl_canvas2d.h"
+	"fps.h"
+	"borda.h"
+	"bola.h"
+
+1713450028 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\vetores\src\fps.h
+	<stdio.h>
+	<time.h>
+
+1713451060 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\vetores\src\reta.h
+	"gl_canvas2d.h"
+	"Vector2.h"
+
+1713451254 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\vetores\src\borda.h
+	"gl_canvas2d.h"
+	"Vector2.h"
+	"reta.h"
+	<vector>
+
+1713813716 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\vetores\src\bola.h
+	"gl_canvas2d.h"
+	"Vector2.h"
+

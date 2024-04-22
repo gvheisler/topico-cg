@@ -16,8 +16,6 @@
 
 #define Y_CANVAS_CRESCE_PARA_CIMA 1
 
-extern int screenWidth, screenHeight;
-
 class CV //classe Canvas2D
 {
 public:
@@ -64,7 +62,7 @@ public:
     static void translate(Vector2 pos);
 
     //funcao de inicializacao da Canvas2D. Recebe a largura, altura, e um titulo para a janela
-    static void init(int w, int h, const char *title);
+    static void init(int *w, int *h, const char *title);
 
     //funcao para executar a Canvas2D
     static void run();

@@ -16,6 +16,8 @@
 #include "gl_canvas2d.h"
 #include <GL/glut.h>
 
+int *scrWidth, *scrHeight; //guarda referencia para as variaveis de altura e largura da main()
+
 //conjunto de cores predefinidas. Pode-se adicionar mais cores.
 float Colors[14][3]=
 {
@@ -242,19 +244,18 @@ void motion(int x, int y)
 void ConvertMouseCoord(int button, int state, int wheel, int direction, int x, int y)
 {
 #if Y_CANVAS_CRESCE_PARA_CIMA == TRUE
-   y = screenHeight - y; //deve-se inverter a coordenada y do mouse se o y da canvas crescer para cima. O y do mouse sempre cresce para baixo.
+   y = *scrHeight - y; //deve-se inverter a coordenada y do mouse se o y da canvas crescer para cima. O y do mouse sempre cresce para baixo.
 #else
    //nao faz nada.
 #endif
    mouse(button, state, wheel, direction, x, y);
 }
 
-
 //funcao chamada sempre que a tela for redimensionada.
 void reshape (int w, int h)
 {
-   screenHeight = h; //atualiza as variaveis da main() com a nova dimensao da tela.
-   screenWidth = w;
+   *scrHeight = h; //atualiza as variaveis da main() com a nova dimensao da tela.
+   *scrWidth = w;
 
    glViewport (0, 0, (GLsizei) w, (GLsizei) h);
    glMatrixMode (GL_PROJECTION);
@@ -296,20 +297,20 @@ void display (void)
 ////////////////////////////////////////////////////////////////////////////////////////
 //  inicializa o OpenGL
 ////////////////////////////////////////////////////////////////////////////////////////
-void CV::init(int w, int h, const char *title)
+void CV::init(int *w, int *h, const char *title)
 {
    int argc = 0;
    glutInit(&argc, NULL);
 
-   screenHeight = h;
-   screenWidth = w;
+   scrHeight = h;
+   scrWidth = w;
 
    //habilita MSAA
    glutSetOption(GLUT_MULTISAMPLE, 8);
    glutInitDisplayMode (GLUT_DOUBLE | GLUT_RGB | GLUT_MULTISAMPLE);
    //glutInitDisplayMode (GLUT_DOUBLE | GLUT_RGB);
 
-   glutInitWindowSize (w, h);
+   glutInitWindowSize (*w, *h);
    glutInitWindowPosition (50, 50);
    glutCreateWindow (title);
 

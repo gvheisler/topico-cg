@@ -1,0 +1,235 @@
+# depslib dependency file v1.0
+1710341357 source:d:\ufsm\disciplinas\computacao grafica\demos\gl_1_canvasglut\src\main.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	"gl_canvas2d.h"
+	"Bola.h"
+	"Relogio.h"
+	"Botao.h"
+
+1589218349 
+
+1632060799 d:\ufsm\disciplinas\computacao grafica\demos\include\gl\glut.h
+	"freeglut_std.h"
+
+1632060799 std.h"
+
+1632060797 d:\ufsm\disciplinas\computacao grafica\demos\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1632060794 d:\ufsm\disciplinas\computacao grafica\demos\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1710341387 d:\ufsm\disciplinas\computacao grafica\demos\gl_1_canvasglut\src\gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	"Vector2.h"
+
+1710341387 "
+
+1589217858 d:\ufsm\disciplinas\computacao grafica\demos\gl_1_canvasglut\src\vector2.h
+
+1589214882 d:\ufsm\disciplinas\computacao grafica\demos\gl_1_canvasglut\src\bola.h
+	"gl_canvas2d.h"
+
+1589214891 2d.h"
+
+1193164156 d:\ufsm\disciplinas\computacao grafica\demos\gl_1_canvasglut\src\relogio.h
+	"gl_canvas2d.h"
+
+1589214891 d:\ufsm\disciplinas\computacao grafica\demos\gl_1_canvasglut\src\botao.h
+	"gl_canvas2d.h"
+
+1705326017 source:d:\ufsm\disciplinas\computacao grafica\demos\gl_1_canvasglut\src\gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+
+1705326017 >
+
+1589218349 source:d:\ufsm\disciplinas\computacao grafica\demos\gl_1_canvasglut\src\relogio.cpp
+	"Relogio.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+
+1710341420 source:/home/cavalheiro/cc/cg/2024-1/cg2/cg/Demos/1_canvasGlut/src/gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+
+1710341387 /home/cavalheiro/cc/cg/2024-1/cg2/cg/Demos/1_canvasGlut/src/gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	"Vector2.h"
+
+1632060799 /home/cavalheiro/cc/cg/2024-1/cg2/cg/Demos/include/GL/glut.h
+	"freeglut_std.h"
+
+1632060797 /home/cavalheiro/cc/cg/2024-1/cg2/cg/Demos/include/GL/freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1632060794 /home/cavalheiro/cc/cg/2024-1/cg2/cg/Demos/include/GL/freeglut_ext.h
+	<stdarg.h>
+
+1589217858 /home/cavalheiro/cc/cg/2024-1/cg2/cg/Demos/1_canvasGlut/src/Vector2.h
+
+1589218349 source:/home/cavalheiro/cc/cg/2024-1/cg2/cg/Demos/1_canvasGlut/src/Relogio.cpp
+	"Relogio.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+
+1193164156 /home/cavalheiro/cc/cg/2024-1/cg2/cg/Demos/1_canvasGlut/src/Relogio.h
+	"gl_canvas2d.h"
+
+1712513575 source:/home/cavalheiro/cc/cg/2024-1/cg2/cg/Demos/1_canvasGlut/src/Bmp.cpp
+	"Bmp.h"
+	<string.h>
+	"gl_canvas2d.h"
+
+1712513036 /home/cavalheiro/cc/cg/2024-1/cg2/cg/Demos/1_canvasGlut/src/Bmp.h
+	<stdio.h>
+	<stdlib.h>
+	<vector>
+	<algorithm>
+	<string>
+
+1712509757 source:/home/cavalheiro/cc/cg/2024-1/cg2/cg/Demos/1_canvasGlut/src/main.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"gl_canvas2d.h"
+	"Bola.h"
+	"Relogio.h"
+	"ManagerBotoes.h"
+
+1589214882 /home/cavalheiro/cc/cg/2024-1/cg2/cg/Demos/1_canvasGlut/src/Bola.h
+	"gl_canvas2d.h"
+
+1712446510 /home/cavalheiro/cc/cg/2024-1/cg2/cg/Demos/1_canvasGlut/src/Botao.h
+	"gl_canvas2d.h"
+
+1712505379 /home/cavalheiro/cc/cg/2024-1/cg2/cg/Demos/1_canvasGlut/src/ManagerBotoes.h
+	<vector>
+	"Botao.h"
+	"ImageManager.h"
+
+1712513240 source:/home/cavalheiro/cc/cg/2024-1/cg2/cg/Demos/1_canvasGlut/src/ImageManager.cpp
+	"ImageManager.h"
+	<vector>
+	<unistd.h>
+
+1712512420 /home/cavalheiro/cc/cg/2024-1/cg2/cg/Demos/1_canvasGlut/src/ImageManager.h
+	"Bmp.h"
+
+1712511786 source:/home/cavalheiro/cc/cg/2024-1/cg2/cg/Demos/1_canvasGlut/src/ManagerBotoes.cpp
+	"ManagerBotoes.h"
+
+1710341420 source:c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\cavalheiro\src\gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+
+1710341387 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\cavalheiro\src\gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	"Vector2.h"
+
+1632060799 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\include\gl\glut.h
+	"freeglut_std.h"
+
+1632060797 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1632060794 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1589217858 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\cavalheiro\src\vector2.h
+
+1712509757 source:c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\cavalheiro\src\main.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"gl_canvas2d.h"
+	"Bola.h"
+	"Relogio.h"
+	"ManagerBotoes.h"
+
+1589214882 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\cavalheiro\src\bola.h
+	"gl_canvas2d.h"
+
+1193164156 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\cavalheiro\src\relogio.h
+	"gl_canvas2d.h"
+
+1712505379 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\cavalheiro\src\managerbotoes.h
+	<vector>
+	"Botao.h"
+	"ImageManager.h"
+
+1712446510 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\cavalheiro\src\botao.h
+	"gl_canvas2d.h"
+
+1712512420 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\cavalheiro\src\imagemanager.h
+	"Bmp.h"
+
+1712513036 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\cavalheiro\src\bmp.h
+	<stdio.h>
+	<stdlib.h>
+	<vector>
+	<algorithm>
+	<string>
+
+1589218349 source:c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\cavalheiro\src\relogio.cpp
+	"Relogio.h"
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+
+1712514544 source:c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\cavalheiro\src\bmp.cpp
+	"Bmp.h"
+	<string.h>
+	"gl_canvas2d.h"
+

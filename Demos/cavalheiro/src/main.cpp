@@ -60,9 +60,9 @@ void render()
 {
     CV::clear(1,1,1);
 
-   //mbt->renderizaBotoes();
+   mbt->renderizaBotoes();
    im->Render();
-   //bmp->Render(300,300);
+   //bmp2->Render(300,300);
    //bmp3->Render(500,500);
 
 
@@ -141,8 +141,8 @@ void mouse(int button, int state, int wheel, int direction, int x, int y)
 int main(void)
 {
    im = new ImageManager(1);
-   //mbt = new ManagerBotoes(im);
-   //bmp = new Bmp(".\cavalheiro\images\a.bmp");
+   mbt = new ManagerBotoes(im);
+   //bmp = new Bmp("./1_canvasGlut/images/a.bmp");
    //bmp2 = new Bmp("./1_canvasGlut/images/b.bmp");
    //bmp3 = new Bmp("./1_canvasGlut/images/c.bmp");
 

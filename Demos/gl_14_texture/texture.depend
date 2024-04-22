@@ -1,0 +1,118 @@
+# depslib dependency file v1.0
+1650887927 source:d:\ufsm\disciplinas\computacao grafica\demos\gl_14_texture\src\bmp.cpp
+	"Bmp.h"
+	<string.h>
+
+1531759698 d:\ufsm\disciplinas\computacao grafica\demos\gl_14_texture\src\bmp.h
+	<stdio.h>
+	<stdlib.h>
+
+1627989845 source:d:\ufsm\disciplinas\computacao grafica\demos\gl_14_texture\src\texture.cpp
+	<GL/glut.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"Bmp.h"
+
+1426372440 d:\ufsm\disciplinas\computacao grafica\demos\gl_14_texture\include\gl\glut.h
+	"freeglut_std.h"
+
+1437579942 d:\ufsm\disciplinas\computacao grafica\demos\gl_14_texture\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1254367642 d:\ufsm\disciplinas\computacao grafica\demos\gl_14_texture\include\gl\gl.h
+
+1254367642 d:\ufsm\disciplinas\computacao grafica\demos\gl_14_texture\include\gl\glu.h
+	<GL/gl.h>
+
+1650887927 source:c:\users\gvhei\onedrive\햞ea de trabalho\topico-cg\demos\gl_14_texture\src\bmp.cpp
+	"Bmp.h"
+	<string.h>
+
+1531759698 c:\users\gvhei\onedrive\햞ea de trabalho\topico-cg\demos\gl_14_texture\src\bmp.h
+	<stdio.h>
+	<stdlib.h>
+
+1705326017 source:c:\users\gvhei\onedrive\햞ea de trabalho\topico-cg\demos\gl_14_texture\src\gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+
+1705326013 c:\users\gvhei\onedrive\햞ea de trabalho\topico-cg\demos\gl_14_texture\src\gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	"Vector2.h"
+
+1632060799 c:\users\gvhei\onedrive\햞ea de trabalho\topico-cg\demos\include\gl\glut.h
+	"freeglut_std.h"
+
+1632060797 c:\users\gvhei\onedrive\햞ea de trabalho\topico-cg\demos\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1632060794 c:\users\gvhei\onedrive\햞ea de trabalho\topico-cg\demos\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1589217858 c:\users\gvhei\onedrive\햞ea de trabalho\topico-cg\demos\gl_14_texture\src\vector2.h
+
+1711473028 source:c:\users\gvhei\onedrive\햞ea de trabalho\topico-cg\demos\gl_14_texture\src\main.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	"gl_canvas2d.h"
+	"imagem.h"
+
+1711473034 c:\users\gvhei\onedrive\햞ea de trabalho\topico-cg\demos\gl_14_texture\src\imagem.h
+	"Bmp.h"
+
+1650887927 source:c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\gl_14_texture\src\bmp.cpp
+	"Bmp.h"
+	<string.h>
+
+1531759698 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\gl_14_texture\src\bmp.h
+	<stdio.h>
+	<stdlib.h>
+
+1711470305 source:c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\gl_14_texture\src\texture.cpp
+	<GL/glut.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<ctype.h>
+	"Bmp.h"
+
+1632060799 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\include\gl\glut.h
+	"freeglut_std.h"
+
+1632060797 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
