@@ -4,13 +4,13 @@
 #include "gl_canvas2d.h"
 #include "Vector2.h"
 #include "reta.h"
-#include "Borda.h" // Inclua a definição da classe Borda aqui
+#include "Borda.h"
 
 class Bola {
 public:
     Vector2 pos;
     Vector2 dir;
-    float velocidade = 2;
+    float velocidade = 100;
     Borda * borda = NULL;
     int raio = 10;
 
@@ -32,7 +32,7 @@ public:
     void render(int fps, bool debug) {
         CV::color(0, 0, 1);
         CV::circleFill(pos.x, pos.y, raio, 20);
-        pos = pos + (dir * velocidade);
+        pos = pos + (dir * (velocidade/fps));
         checaColisao();
         if(debug){
             renderDir();

@@ -322,9 +322,10 @@
 	<GL/freeglut_ext.h>
 	"Vector2.h"
 
-1713813926 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\vetores\src\vector2.h
+1713879588 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\vetores\src\vector2.h
+	<cmath>
 
-1713812075 source:c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\vetores\src\main.cpp
+1713879588 source:c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\vetores\src\main.cpp
 	<GL/glut.h>
 	<GL/freeglut_ext.h>
 	<math.h>
@@ -340,19 +341,21 @@
 	<stdio.h>
 	<time.h>
 
-1713451060 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\vetores\src\reta.h
-	"gl_canvas2d.h"
+1713879588 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\vetores\src\reta.h
+	<vector>
 	"Vector2.h"
 
-1713451254 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\vetores\src\borda.h
+1713879588 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\vetores\src\borda.h
 	"gl_canvas2d.h"
 	"Vector2.h"
 	"reta.h"
 	<vector>
 
-1713813716 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\vetores\src\bola.h
+1713881477 c:\users\gvhei\onedrive\햞ea de trabalho\topicos\topico-cg\demos\vetores\src\bola.h
 	"gl_canvas2d.h"
 	"Vector2.h"
+	"reta.h"
+	"Borda.h"
 
 1713827346 source:c:\users\gvh\desktop\2024.1\topico-cg\demos\vetores\src\gl_canvas2d.cpp
 	"gl_canvas2d.h"
