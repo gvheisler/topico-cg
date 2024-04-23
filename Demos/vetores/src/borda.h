@@ -22,11 +22,22 @@ public:
         retas.push_back(new Reta(bordas[1], bordas[2]));
         retas.push_back(new Reta(bordas[2], bordas[3]));
         retas.push_back(new Reta(bordas[3], bordas[0]));
+        int meioX = largura/2;
+        int meioY = altura/2;
+        int tamanho = 100;
+        retas.push_back(new Reta(Vector2(meioX-tamanho, meioY), Vector2(meioX, meioY+tamanho)));
+        retas.push_back(new Reta(Vector2(meioX, meioY+tamanho), Vector2(meioX+tamanho, meioY)));
+        retas.push_back(new Reta(Vector2(meioX+tamanho, meioY), Vector2(meioX, meioY-tamanho)));
+        retas.push_back(new Reta(Vector2(meioX, meioY-tamanho), Vector2(meioX-tamanho, meioY)));
     }
 
-    void render(){
+    std::vector<Reta*> getRetas(){
+        return retas;
+    }
+
+    void render(bool debug){
         for(int i = 0; i < retas.size(); i++){
-            retas[i]->render();
+            retas[i]->render(debug);
         }
     }
 

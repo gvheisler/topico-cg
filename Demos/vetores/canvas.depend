@@ -354,3 +354,68 @@
 	"gl_canvas2d.h"
 	"Vector2.h"
 
+1713827346 source:c:\users\gvh\desktop\2024.1\topico-cg\demos\vetores\src\gl_canvas2d.cpp
+	"gl_canvas2d.h"
+	<GL/glut.h>
+
+1713827346 c:\users\gvh\desktop\2024.1\topico-cg\demos\vetores\src\gl_canvas2d.h
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<string.h>
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	"Vector2.h"
+
+1713827345 c:\users\gvh\desktop\2024.1\topico-cg\demos\include\gl\glut.h
+	"freeglut_std.h"
+
+1713827345 c:\users\gvh\desktop\2024.1\topico-cg\demos\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1713827345 c:\users\gvh\desktop\2024.1\topico-cg\demos\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1713829266 c:\users\gvh\desktop\2024.1\topico-cg\demos\vetores\src\vector2.h
+	<cmath>
+
+1713875918 source:c:\users\gvh\desktop\2024.1\topico-cg\demos\vetores\src\main.cpp
+	<GL/glut.h>
+	<GL/freeglut_ext.h>
+	<math.h>
+	<stdio.h>
+	<stdlib.h>
+	<unistd.h>
+	"gl_canvas2d.h"
+	"fps.h"
+	"borda.h"
+	"bola.h"
+
+1713827346 c:\users\gvh\desktop\2024.1\topico-cg\demos\vetores\src\fps.h
+	<stdio.h>
+	<time.h>
+
+1713875891 c:\users\gvh\desktop\2024.1\topico-cg\demos\vetores\src\borda.h
+	"gl_canvas2d.h"
+	"Vector2.h"
+	"reta.h"
+	<vector>
+
+1713875856 c:\users\gvh\desktop\2024.1\topico-cg\demos\vetores\src\reta.h
+	<vector>
+	"Vector2.h"
+
+1713875906 c:\users\gvh\desktop\2024.1\topico-cg\demos\vetores\src\bola.h
+	"gl_canvas2d.h"
+	"Vector2.h"
+	"reta.h"
+	"Borda.h"
+

@@ -40,6 +40,8 @@ Borda * borda = NULL;
 
 Bola * bola = NULL;
 
+bool debug = false;
+
 
 
 
@@ -64,8 +66,8 @@ void render()
     CV::clear(1,1,1);
     fps = frames->getFrames();
     showFPS();
-    borda->render();
-    bola->render(fps);
+    borda->render(debug);
+    bola->render(fps, debug);
 
 }
 
@@ -73,6 +75,10 @@ void render()
 void keyboard(int key)
 {
    //printf("\nTecla: %d" , key);
+   if(key==100){
+        debug = !debug;
+   }
+
 }
 
 //funcao chamada toda vez que uma tecla for liberada
@@ -96,6 +102,6 @@ int main(void)
     CV::init(screenWidth, screenHeight, "Vectors");
     frames = new Frames();
     borda = new Borda(screenHeight,screenWidth);
-    bola = new Bola(Vector2(screenWidth/2, screenHeight/2));
+    bola = new Bola(Vector2(100, 100), borda);
     CV::run();
 }
